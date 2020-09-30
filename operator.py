@@ -144,3 +144,32 @@ list1 is not list2
 
                                                                           #6.Membership Operator
                                                                           
+x in list2
+#op=False
+
+10 in list1
+#op=False
+
+in list2
+[1,2,3] in list2
+#op=False
+                                                                           #7.Bitwise Operator
+ #Bitwise and
+10 & 12
+#op=8
+
+#Bitwise or
+10 | 12
+#op=14
+
+#Right shift
+10 >> 12
+#op=0
+
+#Left shift
+10 << 12
+#op=40960
+
+#Bitwise XOR
+10 ^ 12
+#op=6
