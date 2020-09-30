@@ -63,3 +63,86 @@ a
 a.remove(3000)
 a
 #op=array('i', [1, 2, 3, 4, 5, 1000, 2000])
+
+
+#4.array concatination(Addition of two array)
+import array as arr
+a=arr.array('d',[1.1,1.2,1.3,1.4,1.5])
+b=arr.array('d',[1.6,1.7,1.8,1.9,2.0])
+c=a+b
+c
+#op=array('d', [1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0])
+
+#5.Slicing an array==Array sliced using : symbol which returns range of elements that we have specified by index number
+import array as arr
+a=arr.array('d',[1.1,1.2,1.3,1.4,1.5])
+print(a[0:3])
+#op=array('d', [1.1, 1.2, 1.3])
+
+import array as arr
+a=arr.array('d',[1.1,1.2,1.3,1.4,1.5])
+print(a[0:-4])
+#op=array('d', [1.1])
+
+#reverse the array
+import array as arr
+a=arr.array('d',[1.1,1.2,1.3,1.4,1.5])
+print(a[::-1])
+#op=array('d', [1.5, 1.4, 1.3, 1.2, 1.1])
+
+#5.Looping
+
+#I.For=Iterets over the item of array specified number of times
+#1.
+import array as arr
+a=arr.array('i',[1,2,3,4,5,6,7])
+temp=0
+while temp<a[5]:
+    print(a[temp])
+    temp = temp + 1
+#op=
+1
+2
+3
+4
+5
+6
+
+#2.
+x=0
+while x<len(a):
+      print(a[x])
+      x = x +1
+ #op=
+1
+2
+3
+4
+5
+6
+7
+
+#II.While=Iterets over the item of array until certain condition met
+
+#for loop with slicing
+#1.
+import array as arr
+a=arr.array('i',[1,2,3,4,5,6,7])
+for x in a:
+    print(x)
+#op=
+1
+2
+3
+4
+5
+6
+7
+
+#2.
+for x in a[0:3]:
+        print(x)
+#op=
+1
+2
+3
